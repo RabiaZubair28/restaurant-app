@@ -1,0 +1,58 @@
+.banner-card{
+    background-color: var(--image-background);
+    color: var(--white);
+    background-image: url("../images/burger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    text-align: center;
+    padding-inline: 20px;
+    border-radius: var(--radius-8);
+    padding-top: 190px;
+    
+}
+.hero{
+    padding-inline: 16px;
+}
+.icon{
+    color:grey;
+    font-size: 30px;
+    margin-inline: 10px;
+
+}
+.searchbar{
+    border: 1px solid white;
+    background-color: white;
+    height: 50px;
+    width: 410px;
+    border-radius: 5px;
+}
+.search{
+    border: 1px solid white;
+    height: 45px;
+    width: 250px
+}
+.submit-button{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px;
+    padding-inline:10px;
+    padding-block:2px;
+    border:1px solid transparent;
+    border-radius: 3px;
+}
+.heading{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 3px 3px  grey;
+  
+}
+
+

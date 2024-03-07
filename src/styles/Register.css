@@ -1,0 +1,13 @@
+.background{
+    background: linear-gradient(to right, rgb(255, 95, 109), rgb(238, 154, 52));
+}
+.register{
+    display: flex;
+}
+
+    @media screen and (max-width: 1297px) 
+    {
+        .register{
+            display: block;
+        }
+}

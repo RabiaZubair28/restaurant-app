@@ -1,0 +1,17 @@
+.mobile-background{
+    background-color: rgba(184, 195, 204, 0.707);
+}
+.tabs{
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.mobile{
+    display: flex;
+}
+
+    @media screen and (max-width: 1297px) 
+    {
+        .mobile{
+            display: block;
+        }
+}

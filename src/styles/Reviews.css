@@ -1,0 +1,44 @@
+.customer-name
+{
+    font-weight: 800;
+}
+.customer-stars
+{
+    color: rgb(51, 117, 95);
+    font-weight: 700;
+    margin-block: 20px;
+}
+.icon1{
+    color: rgb(255, 157, 0);
+    font-size: 80px;
+}
+.icon2{
+    color: rgba(214, 222, 59, 0.92);
+    font-size: 80px;
+}
+.icon3{
+    color: rgba(34, 160, 59, 0.92);
+    font-size: 80px;
+}
+.icon1:hover{
+    box-shadow: 5px 5px 5px 5px rgb(253, 192, 94);
+    font-size: 80px;
+}
+.icon2:hover{
+    box-shadow: 5px 5px 5px 5px rgba(231, 235, 150, 0.92);
+    font-size: 80px;
+}
+.icon3:hover{
+    box-shadow: 5px 5px 5px 5px rgba(132, 199, 146, 0.92);
+    font-size: 80px;
+}
+.reviews{
+        display: flex;
+        align-items: center;
+    }
+    @media screen and (max-width: 900px) {
+        .reviews
+        {
+            display: block;
+        }
+    }

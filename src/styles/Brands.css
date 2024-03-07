@@ -1,0 +1,49 @@
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    margin-block: 10px;
+}
+.packages .card img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+.picture{
+    height: 100px;
+    width:100px;
+}
+.image{
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 5px;
+}
+.image:hover{
+  
+    box-shadow: 3px 3px 3px 3px rgb(180, 179, 179);
+}

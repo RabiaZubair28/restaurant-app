@@ -1,0 +1,69 @@
+
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    margin-block: 10px;
+}
+.packages .card img{
+    border-radius: 5px;
+    height: 300px;
+    width: 100%;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+/* Section Packages End */
+
+
+
+
+/* About End */
+.city{
+    color:#414040;
+    text-shadow: 2px 2px white;
+    padding-inline: 25px;
+    font-weight: 800;
+}
+.desc{
+    color:#414040;
+    text-shadow: 2px 2px white;
+    padding-inline: 25px;
+}
+.price{
+    color:#414040;
+    text-shadow: 2px 2px white;
+    padding-inline: 25px;
+    padding-block-end: 20px;
+}
+.bt{
+    padding-inline: 30px;
+    padding-block: 10px;
+    background-color: #ffa500;
+    border: 2px dashed white;
+    border-radius: 5px;
+    color: #414040;
+    font-size: 22px;
+    font-weight: 700;
+}
+.bt:hover{
+    box-shadow: #414040 0px 4px 12px;
+}
